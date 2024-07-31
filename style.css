@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.tag-style{
+
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.all-color{
+    width: 1440px;
+    /* height: 600px; */
+    margin: 0 auto;
+   /* background: rgb(0,0,0); */
+    
+}
+.nav-main{
+   max-width:1060px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+.btn-primary span{
+    border: none;
+    margin:30px 20px ;
+    color: rgb(255, 255, 255);   
+}
+.btn-primary{
+      
+      border: 1px solid rgba(255, 255, 255, 0.1);
+       border-radius: 39px;
+       padding: 10px 0px;
+       font-size: 1rem;
+       font-weight: 400px;    
+}
+#homes-color{
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left:2px;
+
+}
+.main-all{
+    max-width:1060px;
+    margin: 0 auto;
+    
+}
+.banner-main{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    width: 55%;
+    /* border: 1px solid gold; */
+   
+}
+.banner-text h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 5rem;
+}
+.banner-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.btn-all{
+    border-radius: 35px;
+background: rgb(230, 83, 60);
+padding: 10px 25px; border: none;
+color: white;
+font-weight: 600px;
+font-size: 1.2rem;
+}
+.btn-span{
+  color: white; 
+  padding: 10px 25px; 
+  
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.nav-humburger-menu{
+  color: white;
+  display: none;
+}
+.banner-pic{
+    width: 37%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.banner-pic img{
+    width: 100%;
+}
+.styles{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 5rem;
+}
+.child-div{
+    display: flex;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px 30px;
+    width: max-content;
+    position: absolute;
+    top: 70%;
+    right: 75%;
+    
+}
+.child-text{
+    margin-left: 10px;
+    color:rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+}
+.child-span{
+    font-weight: 900;
+    font-size: 1.7rem;
+    color:rgb(250, 250, 249) ;
+}
+.child-font{
+    color:  rgb(230, 83, 60);
+    font-size: 3rem;   
+}
+.child-text-two{
+    font-size: 0.9rem;
+    color:rgba(239, 237, 232, 0.65);
+}
+.child-span-two{
+    font-weight: 900;
+    font-size: 2.5rem;
+    color:rgb(250, 250, 249) ;
+}
+.child-div-two{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px 40px;
+    width: max-content;
+    position: absolute;
+    top: 22%;
+    right:-25%;
+}
+
+
+
+
+
+
+/* small-device */
+@media screen and (max-width:576px) {
+    .btn-primary{
+        display: none;
+    }
+    .nav-humburger-menu{
+        display:block;
+        color: white;
+    }
+    .nav-main{
+        flex-direction: row;
+    }
+    .banner-main{
+        flex-direction: column;
+        
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding:50px;
+    }
+    
+}
