@@ -84,7 +84,8 @@ body{
 .btn-all{
     border-radius: 35px;
 background: rgb(230, 83, 60);
-padding: 10px 25px; border: none;
+padding: 10px 30px;
+ border: none;
 color: white;
 /* font-weight: 400px; */
 font-size: 1.2rem;
@@ -201,7 +202,41 @@ font-size: 1.2rem;
     border-radius: 100px;
     margin-bottom: 30px;
 }
+/* run section */
+.run-main{
+    margin-top: 50px;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+/* height: 600px; */
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.run-text{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
 
+}
+.run-btn{
+    width: 30%;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.run-pic{
+    width: 40%;
+    /* border: 1px solid red; */
+}
+.run-pic img{
+    width: 100%;
+    border-radius: 15px;
+}
 
 
 
@@ -222,29 +257,28 @@ font-size: 1.2rem;
         padding: 50px;
         
     }
-    .banner-text{
+    .banner-text ,.banner-pic,.run-pic,.run-text,.run-btn{
         width: 100%;
     }
-    .banner-pic {
-        width: 100%;
-    }
+    
+
     .banner-text h1{
         font-size: 2.2rem;
     }
 .child-div{
     padding: 12px 15px;
-    top: 40%;
+    top: 43%;
     right: 40%;
 }
 .child-div-two{
     padding: 10px 10px;
     top: 10%;
-    right:-15%;
+    right:-10%;
 }
 .btn-all{
     padding: 10px 10px;
 }
-.btn-span{
+.btn-span {
     padding: 10px 10px;  
 }
 .card-design{
@@ -259,6 +293,12 @@ font-size: 1.2rem;
 .all-bold{
     font-size: 2rem;
 }
-
+.run-main{
+    flex-direction: column;
+   margin:20px;
 }
-
+.run-btn{
+    margin: 20px 0px;
+    padding: 20px;
+}
+}
