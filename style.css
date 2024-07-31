@@ -239,7 +239,7 @@ font-size: 1.2rem;
 .child-div-two{
     padding: 10px 10px;
     top: 10%;
-    right:-10%;
+    right:-15%;
 }
 .btn-all{
     padding: 10px 10px;
@@ -252,7 +252,13 @@ font-size: 1.2rem;
    gap: 20px;
     
 }
-
+.card-text{
+    padding:0px 20px;
+    margin-top: 0px;
+}
+.all-bold{
+    font-size: 2rem;
+}
 
 }
 
