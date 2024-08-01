@@ -236,8 +236,8 @@ padding: 20px;
 .run-pic img{
     width: 100%;
     border-radius: 15px;
-    object-fit: none;
-    object-position: 66% 33%;
+    object-fit:none;
+    object-position: 70% 30%; 
 }
 /* meet our team section */
 
@@ -340,7 +340,7 @@ padding: 20px;
 }
 
 
-.none{
+.none , #none{
     display: none;
 }
 
