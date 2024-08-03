@@ -4,13 +4,33 @@
 
 body{
     font-family: "Inter", sans-serif;
-    background-color: black;
+    /* background-color: black; */
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+.all-color{
+    max-width:1440px;
+    /* height: 600px; */
+    margin: 0 auto;
+   background: rgb(0,0,0);
+    
+}
+.main-all{
+    max-width:1060px;
+    margin: 0 auto;
+    
+}
+.nav-colors{
+
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.nav-width{
+    max-width:1060px;
+    margin: 0 auto;
 }
 .tag-style{
 
@@ -19,17 +39,8 @@ body{
     font-weight: 800;
 
 }
-.all-color{
-    max-width:1440px;
-    /* height: 600px; */
-    margin: 0 auto;
-   /* background: rgb(0,0,0); */
-    
-}
+
 .nav-main{
-   max-width:1060px;
-    margin: 0 auto;
-    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -55,11 +66,7 @@ body{
     margin-left:2px;
 
 }
-.main-all{
-    max-width:1060px;
-    margin: 0 auto;
-    
-}
+
 .banner-main{
     
     display: flex;
