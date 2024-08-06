@@ -19,7 +19,7 @@ body{
    background: rgb(0,0,0);
     
 }
-.main-all{
+.primary-width{
     max-width:1060px;
     margin: 0 auto;
     
@@ -247,6 +247,81 @@ padding: 20px;
     object-position: 66% 30%;
 
 }
+/* bmi-section */
+.bmi-text-contain{
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-left:30%;
+}
+
+.bmi-color{
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+}
+.bmi-design{
+    max-width:1060px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+
+}
+.tables{
+    width: 49%;
+    /* border: 1px solid red; */   
+}
+.bmi-text{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid rgba(255, 255, 255,0.1);
+    padding: 8px;
+    text-align: left;
+}
+.input-field{
+    width: 49%;
+    /* border: 1px solid green; */
+}
+.input-area{
+    width: 100%;
+}
+.input-box input ,select{
+    width: 100%;
+    height: 37px;
+    margin-top: 10px;
+   border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 20px;
+
+    
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.Calculator-btn{
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 40%;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  padding: 10px 50px;
+  margin-top: 30px;
+}
 /* meet our team section */
 
 .team-text{
@@ -345,7 +420,7 @@ padding: 20px;
         padding: 50px;
         
     }
-    .banner-text ,.banner-pic,.run-pic,.run-text,.run-btn ,.team{
+    .banner-text ,.banner-pic,.run-pic,.run-text,.run-btn ,.team , .tables{
         width: 100%;
     }
     .banner-text h1{
@@ -401,6 +476,18 @@ padding: 20px;
 .footer-bold,.footer-semi-bold{
     margin-right: 130px;
     margin-top: 20px;
+}
+.bmi-design{
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.Calculator-btn{
+    padding: 15px 80px;
+    width: 70%;
+}
+.bmi-text-contain{
+    margin-left: 5%;
 }
 
 }
