@@ -403,7 +403,7 @@ th,td{
 }
 
 
-/* small-device */
+/* small-device-style*/
 @media screen and (max-width:576px) {
     .btn-primary{
         display: none;
