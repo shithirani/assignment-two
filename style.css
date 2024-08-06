@@ -434,7 +434,7 @@ th,td{
 .child-div-two{
     padding: 10px 10px;
     top: 10%;
-    right:-10%;
+    right:-5%;
 }
 .btn-all{
     padding: 10px 10px;
@@ -488,6 +488,7 @@ th,td{
 }
 .bmi-text-contain{
     margin-left: 5%;
+    padding: 0px 10px;
 }
 
 }
