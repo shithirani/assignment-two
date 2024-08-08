@@ -247,6 +247,145 @@ padding: 20px;
     object-position: 66% 30%;
 
 }
+/* training-section */
+.training-text-contain{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+    margin-bottom: 50px;
+
+}
+
+.pic{
+    position: relative;
+}
+.pic1-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(6, 255, 210, 0.6);
+    opacity: 0.5;
+    transition: opacity 0.3s;   
+}
+.pic1-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-top: 80%;
+}
+.pic2-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 0,0, 0.6);
+    opacity: 0.5;
+    transition: opacity 0.3s;  
+}
+.pic2-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.pic3-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0, 0.7);
+    opacity: 0.5;
+    transition: opacity 0.3s;  
+}
+.pic3-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    margin-left: 10%;
+    margin-top: 60%;
+}
+.pic4-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0, 0.7);
+    opacity: 0.5;
+    transition: opacity 0.3s;  
+}
+.pic4-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.pic5-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(55,255,0, 0.5);
+    opacity: 0.5;
+    transition: opacity 0.3s;  
+}
+.pic5-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    margin-left: 10%;
+    margin-top: 80%;
+}
+.hide ,.hide2{
+       display: none;
+    
+    
+}
+.pic6-style{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,71,255, 0.8);
+    opacity: 0.5;
+    transition: opacity 0.3s;  
+}
+.pic6-text-style{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    margin-left: 10%;
+    margin-top: 65%;
+}
+.training-contain img{
+    width: 100%;
+    height: 100%;
+}
+.row-1 ,.row-2{
+    display: grid;
+    grid-template-columns: .50fr .90fr .60fr;
+}
+.row-2{
+    grid-template-columns: .9fr .5fr .6fr;
+}
 /* bmi-section */
 .bmi-text-contain{
     margin-top: 50px;
@@ -490,5 +629,42 @@ th,td{
     margin-left: 5%;
     padding: 0px 10px;
 }
+.row-1,.row-2{
+    grid-template-columns: .5fr .5fr;
+}
+.row-2{
+    grid-template-columns: .45fr .55fr;
+}
+#divs-3,#divs-4 ,.pic5-text-style,.pic6-text-style{
+    display: none;
+}
 
+.hide{
+    display: inline;
+     position: absolute;
+     font-size: 1rem;
+     font-weight: 500;
+     color: rgb(255,255,255);
+     margin-left: 10%;
+     margin-top: 60%;
+ 
+}
+.hide2{
+    
+        display: inline;
+         position: absolute;
+         font-size: 1rem;
+         font-weight: 500;
+         color: rgb(255,255,255);
+         margin-left: 10%;
+         margin-top: 50%;
+     
+ 
+}
+.pic1-text-style{
+    margin-top: 50%;
+}
+.training-contain,.training-text-contain{
+    margin: 20px;
+}
 }
