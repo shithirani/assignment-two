@@ -251,7 +251,7 @@ padding: 20px;
     width: 100%;
     border-radius: 15px;
     object-fit:none;
-    object-position: 66% 30%;
+    object-position: 68% 31%;
 
 }
 /* training-section */
@@ -446,7 +446,7 @@ th,td{
    border: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff99;
+    color: rgba(255, 255, 255, 0.2);
     font-size: 1rem;
     font-weight: 400;
     padding: 10px 20px;
