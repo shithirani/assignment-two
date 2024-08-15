@@ -578,6 +578,10 @@ th,td{
     font-weight: 400;
     color: rgb(255, 255, 255,0.5);
 }
+.hr-tag{
+    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
 
 
 /* small-device-style*/
@@ -615,8 +619,8 @@ th,td{
 }
 .play-btn{
     font-size: 1.3rem;
-    left: 6%;
-    top: 49%;
+    left: 12%;
+    top: 48%;
 }
 .btn-all{
     padding: 10px 10px;
@@ -659,7 +663,8 @@ th,td{
     width: 100%;
 }
 .unique-box1{
-    padding: 20px;text-align: left;
+    padding: 20px;
+    text-align: left;
 }
 .footer-main{
     padding:50px 0px;
@@ -667,6 +672,10 @@ th,td{
 .footer-bold,.footer-semi-bold{
     margin-right: 130px;
     margin-top: 20px;
+}
+.hr-tag{
+    margin-right: 20px;
+    margin-left: 50px;
 }
 .bmi-design{
     flex-direction: column;
